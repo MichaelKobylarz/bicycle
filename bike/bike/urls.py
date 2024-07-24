@@ -17,12 +17,11 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path, include
 
-from bike.views import bike
+
 
 
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('bike/', bike),
-    path('rent/', include('rent.urls'))
+    path('rent/', include('rent.urls')),
 ]
