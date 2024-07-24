@@ -1,9 +1,12 @@
 from django.urls import path
 
-from rent.views import rent_view, hi_view
+from rent import views
 
 urlpatterns = [
-    path('', rent_view),
-    path('hi/', hi_view)
+    # view bike
+    path('', views.rent_view),
 
+    # templates bike
+    path('hi/', views.hi_view),
+    path('hi2/', views.hi2_view),
 ]

@@ -16,3 +16,6 @@ def hi_view(request):
         </body>
     </html>
     """)
+
+def hi2_view(request):
+    return render(request, 'rent.html')
