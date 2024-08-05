@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
 #local
     'rent.apps.RentConfig',
+    'link_app.apps.LinkAppConfig',
 ]
 
 MIDDLEWARE = [

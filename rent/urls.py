@@ -9,4 +9,6 @@ urlpatterns = [
     # templates bike
     path('hi/', views.hi_view),
     path('hi2/', views.hi2_view),
+
+    path('collection/', views.collection_view),
 ]
