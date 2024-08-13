@@ -22,4 +22,6 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('rent/', include('rent.urls')),
     path('link/', include('link_app.urls')),
+    path('form/', include('form_app.urls')),
+    path('crud/', include('crud_app.urls')),
 ]
