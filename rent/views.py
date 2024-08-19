@@ -1,4 +1,3 @@
-import datetime
 from django.shortcuts import render, HttpResponse
 #from django.utildjangs.html import escape
 

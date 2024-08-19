@@ -1,6 +1,6 @@
 from django.urls import path
-from link_app import views
 
+from link_app import views
 
 app_name = 'link_app'
 urlpatterns = [
